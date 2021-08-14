@@ -38,9 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BizTalk.Transforms.LiquidTransform.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=969e815b781bd674, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Windows\Microsoft.NET\assembly\GAC_MSIL\BizTalk.Transforms.LiquidTransform.Common\v4.0_1.0.0.0__969e815b781bd674\BizTalk.Transforms.LiquidTransform.Common.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\BizTalk.Transforms.LiquidTransform.Common.1.0.0\lib\net472\BizTalk.Transforms.LiquidTransform.Common.dll</HintPath>
     </Reference>
     <Reference Include="DotLiquid, Version=2.2.518.0, Culture=neutral, PublicKeyToken=82e46016ecf9f07c, processorArchitecture=MSIL">
       <HintPath>..\packages\DotLiquid.2.2.518\lib\net45\DotLiquid.dll</HintPath>
