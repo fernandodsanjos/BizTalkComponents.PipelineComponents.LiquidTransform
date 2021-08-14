@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.PipelineComponents.LiquidTransform</id>
+    <version>1.1.0.12</version>
+    <authors>Fernando Pires</authors>
+	<projectUrl>https://github.com/fernandodsanjos/BizTalkComponents.PipelineComponents.LiquidTransform</projectUrl>
+    <description>BizTalkComponents.PipelineComponents.LiquidTransform</description>
+	<releaseNotes>FIXED a caching bug regarding TransformMetaData</releaseNotes>
+  </metadata>
+  <files>
+    <file src="bin\Debug\BizTalkComponents.PipelineComponents.LiquidTransform.dll" target="lib\net45" />
+  </files>
+</package>

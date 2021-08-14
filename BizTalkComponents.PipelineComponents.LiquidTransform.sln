@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.LiquidTransform", "LiquidTransform\BizTalkComponents.PipelineComponents.LiquidTransform.csproj", "{BF420889-20FD-46F2-A3A7-D1A1EACE90C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.LiquidTransform.BtsSample", "Samples\BizTalkComponents.PipelineComponents.LiquidTransform.BtsSample\BizTalkComponents.PipelineComponents.LiquidTransform.BtsSample.btproj", "{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF420889-20FD-46F2-A3A7-D1A1EACE90C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF420889-20FD-46F2-A3A7-D1A1EACE90C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF420889-20FD-46F2-A3A7-D1A1EACE90C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF420889-20FD-46F2-A3A7-D1A1EACE90C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6BC34B-9D2F-4CF8-94EA-FDCFCB909B42}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54587965-C047-4496-98DF-D3BE7C765D59}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+<ns0:Persons xmlns:ns0="http://BtsTestLiquid.jsonperson"/>
+ {
+ "Person":[
+{"Name":"Susanne Pires","Age":53,"Country":"Sweden"}
+,{"Name":"Fernando Pires","Age":50,"Country":"Norway"}
+ ]
+ }
