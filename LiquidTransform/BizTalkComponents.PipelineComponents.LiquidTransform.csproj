@@ -37,9 +37,6 @@
     <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BizTalk.Transforms.LiquidTransform.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=969e815b781bd674, processorArchitecture=MSIL">
-      <HintPath>..\packages\BizTalk.Transforms.LiquidTransform.Common.1.0.0\lib\net472\BizTalk.Transforms.LiquidTransform.Common.dll</HintPath>
-    </Reference>
     <Reference Include="DotLiquid, Version=2.2.518.0, Culture=neutral, PublicKeyToken=82e46016ecf9f07c, processorArchitecture=MSIL">
       <HintPath>..\packages\DotLiquid.2.2.518\lib\net45\DotLiquid.dll</HintPath>
     </Reference>
@@ -93,10 +90,16 @@
     <Compile Include="BiztalkComponents.Utils\ValidationHelper.cs" />
     <Compile Include="ExtensionObjects.cs" />
     <Compile Include="Context.cs" />
+    <Compile Include="ILiquidRegister.cs" />
     <Compile Include="LiquidTransform.Component.cs" />
     <Compile Include="LiquidTransform.cs" />
+    <Compile Include="ObjectToXml\ObjectToXmlParser.cs" />
+    <Compile Include="ObjectToXml\XmlDrop.cs" />
+    <Compile Include="ObjectToXml\XmlToDictionary.cs" />
     <Compile Include="Processor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\LookupFilter.cs" />
+    <Compile Include="Samples\Settings.cs" />
     <Compile Include="TemplateInstance.cs" />
   </ItemGroup>
   <ItemGroup>

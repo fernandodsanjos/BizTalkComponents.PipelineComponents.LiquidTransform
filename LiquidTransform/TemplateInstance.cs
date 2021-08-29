@@ -46,26 +46,27 @@ namespace BizTalkComponents.PipelineComponents
 
             foreach (var extensionObject in extensionObjects.Extensions)
             {
-                Object obj = null;
-
-                try
+                if(extensionObject.Namespace == "BizTalk.Transforms.LiquidTransform.ILiquidRegister")
                 {
-                    Assembly assembly = Assembly.Load(extensionObject.AssemblyName);
+                    dynamic extension = null;
 
-                    obj = assembly.CreateInstance(extensionObject.ClassName);
-                }
-                catch (Exception)
-                {
+                    try
+                    {
+                        Assembly assembly = Assembly.Load(extensionObject.AssemblyName);
 
-                    throw new Exception($"RegisterExtension: Could not load  {extensionObject.AssemblyName} {extensionObject.ClassName}");
-                }
+                        extension = assembly.CreateInstance(extensionObject.ClassName);
+                    }
+                    catch (Exception)
+                    {
 
+                        throw new Exception($"RegisterExtension: Could not load  {extensionObject.AssemblyName} {extensionObject.ClassName}");
+                    }
 
-                if (obj is ILiquidRegister)
-                {
-                    var extension = obj as ILiquidRegister;
+                   
                     extension.Register(parameters);
+                    
                 }
+               
             }
 
             return parameters;
